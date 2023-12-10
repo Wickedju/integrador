@@ -1,0 +1,84 @@
+footer{
+    background-color: #00000005;
+    height: 40.3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    #infos{
+        width: 36rem;
+        height: 25rem;
+        #contatos{
+            h3{
+                text-transform: uppercase;
+                margin-bottom: 2rem;
+                font-weight: 600;
+                font-size: 2.1rem;
+            }
+            span{
+                font-weight: 400;
+                font-size: 1.3rem;
+                color: #B2B2B2;
+            }
+        }
+        #endereco{
+            margin-top: 5.25rem;
+            h3{
+                text-transform: uppercase;
+                margin-bottom: 2rem;
+                font-weight: 600;
+                font-size: 2.1rem;
+            }
+            span{
+                font-weight: 400;
+                font-size: 1.3rem;
+                color: #B2B2B2;
+            }
+        }
+    }
+    #paginas{
+        width: 36rem;
+        height: 25rem;
+        width: max-content;
+        h3{
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            font-size: 2.1rem;
+        }
+        ul{
+            li{
+                margin-top: 0.5rem;
+                a{
+                    margin-top: 1rem;
+                    font-weight: 400;
+                    font-size: 1.6rem;
+                    color: #B2B2B2;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    #redes{
+        width: 36rem;
+        height: 25rem;
+        #titulo_redes{
+            h3{
+                text-transform: uppercase;
+                margin-bottom: 1.75rem;
+                font-weight: 600;
+                font-size: 2.1rem;
+                text-align: end;
+            }
+        }
+        #redes_fotos{
+            margin-top: 1rem;
+            display: flex;
+            justify-content: end;
+            ul{
+                li{
+                    margin-top: 2.8rem;
+                }
+            }
+        }
+    }
+}

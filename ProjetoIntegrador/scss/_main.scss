@@ -1,0 +1,75 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    #div_topo{
+        display: flex;
+        #sec_titulo{
+            div{
+                h1{
+                    max-width: 40rem;
+                    margin: 12.7rem 0 0 13.6rem;
+                    font-weight: 700;
+                    font-size: 5.4rem;
+                }
+            }
+        }
+        #sec_img{
+            div{
+                width: 52rem;
+                height: 50rem;
+                margin-left: 18rem;
+                margin-top: 3rem;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    #div_catalogo{
+        margin: 7.5rem auto;
+        height: 53.4rem;
+        width: 120rem;
+        padding: 5rem;
+        border-radius: 1rem;
+        background-color: #00000008;
+        section{
+            display: flex;
+            justify-content: center;
+            gap: 4.5rem;
+            .container_itens_catalogo{
+                height: 44rem;
+                width: 25.5rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: relative;
+                background-color: #fff;
+                border-radius: 1rem;
+                .itens_catalogo_img{
+                    margin: 1.5rem;
+                }
+                .itens_catalogo_texto{
+                    p{
+                        text-align: left;
+                        max-width: 198px;
+                        font-weight: 600;
+                        font-size: 1.25rem;
+                    }
+                }
+                h3{
+                    font-weight: 700;
+                    font-size: 3.037rem;
+                }
+                a{
+                    font-weight: 500;
+                    font-size: 1.6rem;
+                    position: absolute;
+                    bottom: 1rem;
+                    left: 2.5rem;
+                    color: #FF0505BF;
+                }
+            }
+        }
+    }
+}

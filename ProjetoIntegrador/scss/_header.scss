@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    align-items: center;
+    height: 11rem;
+    box-shadow: 0 0.3rem 0.3rem #00000028;
+    div{
+        margin-left: 13.6rem;
+        img{
+            width: 15rem;
+            height: 4rem;
+        }
+    }
+    nav{
+        margin-left: 32.4rem;
+        ul{
+            display: flex;
+            gap: 10rem;
+            li{
+                gap: 10px;
+                font-weight: 500;
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
